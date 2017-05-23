@@ -93,6 +93,21 @@
             India
         </address>
     </footer>
+    <script>
+        (function() {
+            'use strict';
+            if (!('serviceWorker' in navigator)) {
+                console.log('Service Worker Not Supported');
+                return;
+            }
+            navigator.serviceWorker.register('sw.js')
+                .then(() => {
+                    console.log('Registered');
+                }).catch((err) => {
+                    console.log('Failed', err);
+                });
+        })();
+    </script>
 
 </body>
 
