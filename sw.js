@@ -6,7 +6,8 @@
     var urlsToCache = [
         '.',
         'index.html',
-        'styles/main.css'
+        'styles/main.css',
+        'styles/fonts.css'
     ];
     // TODO - 3.1: Add install and activate event listeners
     self.addEventListener('install', function(event) {
