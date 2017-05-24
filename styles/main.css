@@ -8,7 +8,8 @@ body {
     font-size: 100%;
     line-height: 1.4;
     color: white;
-    background: #232234;
+    background-color: #232234;
+    background-image: radial-gradient(circle at bottom right, black, #232234)
 }
 
 img {
