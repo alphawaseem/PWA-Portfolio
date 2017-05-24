@@ -36,6 +36,7 @@ h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
 }
 
@@ -110,6 +111,12 @@ nav ul {
         align-items: center;
     }
     .flexbox .flex-item {
-        flex-grow: 1;
+        max-width: 90%
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul li {
+        width: 90%;
     }
 }
